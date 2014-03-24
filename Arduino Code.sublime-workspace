@@ -1,0 +1,913 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pitch",
+				"pitchToMidi"
+			],
+			[
+				"wpa",
+				"wpa_supplicant_run"
+			],
+			[
+				"summar",
+				"summary_layer"
+			],
+			[
+				"summ",
+				"summary_layer"
+			],
+			[
+				"layer",
+				"summary_layer"
+			],
+			[
+				"WAETHER",
+				"WEATHER_SUMMARY"
+			],
+			[
+				"WEATHER",
+				"WEATHER_FTEMP"
+			],
+			[
+				"TEMP",
+				"WEATHER_TEMP"
+			],
+			[
+				"ICON",
+				"WEATHER_ICON"
+			],
+			[
+				"Dicti",
+				"DictionaryIterator"
+			],
+			[
+				"sync",
+				"sync_error"
+			],
+			[
+				"initial",
+				"initial_values"
+			],
+			[
+				"unix",
+				"unixTimeToReadable"
+			],
+			[
+				"show",
+				"showSimpleNotificationOnPebble"
+			],
+			[
+				"send",
+				"sendData"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"respon",
+				"responseText"
+			],
+			[
+				"current",
+				"currentTemp"
+			],
+			[
+				"webview",
+				"webviewCloseHandler"
+			],
+			[
+				"m_right",
+				"m_rightRangefinder"
+			],
+			[
+				"m_line",
+				"m_lineFollower"
+			],
+			[
+				"Power",
+				"PowerMotors"
+			],
+			[
+				"stop",
+				"stopTracking"
+			],
+			[
+				"line",
+				"lineVal"
+			],
+			[
+				"kTrackTo",
+				"kTrackToTurningPoint"
+			],
+			[
+				"kTrack",
+				"kTrackToPOSE"
+			],
+			[
+				"m_le",
+				"m_leftSensor"
+			],
+			[
+				"LineFol",
+				"m_lineFollower"
+			],
+			[
+				"Stop",
+				"StopRobot"
+			],
+			[
+				"tank",
+				"TankDrive"
+			],
+			[
+				"get",
+				"getChannel"
+			],
+			[
+				"m_swith",
+				"m_switchPort"
+			],
+			[
+				"kNor",
+				"kNormallyOpen"
+			],
+			[
+				"power",
+				"PowerMotors"
+			],
+			[
+				"kManipu",
+				"kManipulatorI"
+			],
+			[
+				"time",
+				"timeSeconds"
+			],
+			[
+				"kAnal",
+				"kAnalogThreeQuarters"
+			],
+			[
+				"kAna",
+				"kAnalogQuarter"
+			],
+			[
+				"kTun",
+				"kTurnStraight"
+			],
+			[
+				"frn",
+				"frontLeftBumper"
+			],
+			[
+				"rear",
+				"rearSpeed"
+			],
+			[
+				"lifter",
+				"lifterMotorPort"
+			],
+			[
+				"set",
+				"SetThreshold"
+			],
+			[
+				"thre",
+				"m_threshold"
+			],
+			[
+				"ultra",
+				"UltrasonicRangefinder"
+			],
+			[
+				"m_l",
+				"m_leftPin"
+			],
+			[
+				"track",
+				"trackStraight"
+			],
+			[
+				"prev",
+				"prevError"
+			],
+			[
+				"ARM_",
+				"ARM_RELEASE"
+			],
+			[
+				"arm_",
+				"ARM_RELEASE"
+			],
+			[
+				"PICKUP",
+				"PICKUP_ENGAGE"
+			],
+			[
+				"pickup",
+				"PICKUP_MID"
+			],
+			[
+				"if",
+				"ifelse	Arduino if-else"
+			],
+			[
+				"analog",
+				"analogVal"
+			],
+			[
+				"digital",
+				"digitalRead	Arduino digitalRead"
+			],
+			[
+				"kRight",
+				"kRightSensorPort"
+			],
+			[
+				"Left",
+				"kLeftSensorPort"
+			],
+			[
+				"right",
+				"rightVal"
+			],
+			[
+				"ON",
+				"ON_LINE"
+			],
+			[
+				"OFF",
+				"OFF_LINE"
+			],
+			[
+				"PICK",
+				"PICKUP_MID"
+			],
+			[
+				"Arm",
+				"ARM_TOP"
+			],
+			[
+				"krightS",
+				"kRightServoPin"
+			],
+			[
+				"trackL",
+				"trackLast"
+			],
+			[
+				"left",
+				"leftVal"
+			],
+			[
+				"sq",
+				"square"
+			],
+			[
+				"side",
+				"sideLength"
+			],
+			[
+				"pulse",
+				"pulseWidth"
+			],
+			[
+				"read",
+				"readVcc"
+			],
+			[
+				"rearLeft",
+				"rearLeftMotor"
+			],
+			[
+				"BSBot",
+				"BSBotDrive"
+			],
+			[
+				"leftStick",
+				"leftStickY"
+			],
+			[
+				"rightSti",
+				"rightStickY"
+			],
+			[
+				"wheel",
+				"wheelBase"
+			],
+			[
+				"drive",
+				"driveRatio"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Arduino Code.ino",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"MarkdownEditing",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"Markdown",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"markdown Editing",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"schemr",
+				"Schemr: List all schemes"
+			],
+			[
+				"javatar build",
+				"Javatar: Builds..."
+			],
+			[
+				"javatar b",
+				"Javatar: Builds..."
+			],
+			[
+				"favorites",
+				"Schemr: List favorite schemes"
+			],
+			[
+				"javatar",
+				"Javatar: Builds..."
+			],
+			[
+				"add to ",
+				"Schemr: Add current scheme to favorites"
+			],
+			[
+				"add to favor",
+				"Schemr: Add current scheme to favorites"
+			],
+			[
+				"favori",
+				"Schemr: List favorite schemes"
+			],
+			[
+				"list",
+				"Schemr: List all schemes"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"java",
+				"Javatar: Create Class"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"export to h",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"export html",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"html",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"git reset",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git re",
+				"Git: Diff Current File"
+			],
+			[
+				"go to ",
+				"Goto Documentation"
+			],
+			[
+				"ctags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"rebui",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"export",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"",
+				"Package Control: Remove Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"export htm",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"oackages",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/arthurlockman/Documents/Arduino/Arduino Code/Arduino Code.ino",
+		"/Users/arthurlockman/Library/Application Support/Mou/CSS/Clearness Dark Mod.css",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Project/pitches.cpp",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Project/pitches.h",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Project/MidiBus Example.java",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Project/MidiBus Example",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Journals/Week 1-1.md",
+		"/Users/arthurlockman/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/arthurlockman/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/arthurlockman/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/Users/arthurlockman/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/CS 2102/Main.java",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/Code Snippets/BSBotDrive.cpp",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/Code Snippets/AlphaBetaFilter.h",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/CS 2102/Eclipse/TestProject/src/Test.java",
+		"/Users/arthurlockman/Library/Application Support/Sublime Text 3/Packages/Javatar/Javatar.sublime-settings",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/Homework/Homework10/Homework10.ino",
+		"/Users/arthurlockman/Desktop/Derp.java",
+		"/Users/arthurlockman/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/arthurlockman/Desktop/WhileAndFile.java",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/RoboSWAG.ino",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/LineSensor.cpp",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/UltrasonicRangefinder.cpp",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Robotmap.h",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/LimitSwitch.cpp",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Servo.cpp",
+		"/Users/arthurlockman/Downloads/uninstall-AirServer",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/LimitSwitch.h",
+		"/Users/arthurlockman/Documents/Codebase/DarkPebble/src/js/pebble-js-app.js",
+		"/Users/arthurlockman/Documents/Codebase/Futura Weather Forecast.io/src/js/pebble-js-app.js",
+		"/Users/arthurlockman/Documents/Codebase/Futura Weather Forecast.io/appinfo.json",
+		"/Users/arthurlockman/Dropbox/WPI/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/PPM.cpp",
+		"/Volumes/applications/New Software Share.lnk",
+		"/Volumes/Untitled 1/etc/wpa_supplicant/wpa_supplicant.conf",
+		"/Volumes/Untitled/etc/wpa_supplicant/wpa_supplicant.conf",
+		"/Users/arthurlockman/Downloads/Ableton Live 9 Suite 9.1 Mac OS X (64 bit) (crack XForce) [ChingLiu]/Crack/x-force.nfo",
+		"/Applications/Ableton Live 9 Suite.app/Contents/MacOS/Installation.cfg",
+		"/Users/arthurlockman/Desktop/Book/book_dl.sh",
+		"/Users/arthurlockman/Desktop/Book/rename.sh",
+		"/Users/arthurlockman/Desktop/book_dl.sh",
+		"/Applications/Arduino.app/Contents/Resources/Java/libraries/PPM/examples/TankDrive/TankDrive.ino",
+		"/Users/arthurlockman/Dropbox/CatOne Networking/etc/ifplugd/ifplugd.action",
+		"/Users/arthurlockman/Dropbox/CatOne Networking/etc/init.d/rcS.sh",
+		"/Users/arthurlockman/Dropbox/CatOne Networking/etc/network_autoconf.sh",
+		"/Users/arthurlockman/Dropbox/CatOne Networking/etc/wifi_conf.sh",
+		"/Users/arthurlockman/Dropbox/CatOne Networking/etc/wpa_supplicant.conf",
+		"/Users/arthurlockman/Dropbox/CatOne Networking/etc/wifi_connect.sh",
+		"/Users/arthurlockman/Dropbox/CatOne Networking/etc/add_network.sh",
+		"/Users/arthurlockman/Dropbox/CatOne Networking/etc/udhcpc.script.sh",
+		"/Users/arthurlockman/Dropbox/CatOne Networking/etc/add_network",
+		"/Users/arthurlockman/Downloads/ifplugd-0.28/conf/ifplugd.action",
+		"/Users/arthurlockman/Downloads/ifplugd-0.28/conf/ifplugd.conf",
+		"/Volumes/__FOGHORN_users/alockman/CatOne Networking/ifplugd.txt",
+		"/Volumes/__FOGHORN_users/alockman/CatOne Networking/udhcpc.script",
+		"/Volumes/__FOGHORN_users/alockman/CatOne Networking/Another_default.script",
+		"/Volumes/__FOGHORN_users/alockman/CatOne Networking/functioned_default.script",
+		"/Volumes/__FOGHORN_users/alockman/CatOne Networking/default.script",
+		"/Users/arthurlockman/Desktop/s.sh",
+		"/Users/arthurlockman/Desktop/udhcpc.script.sh",
+		"/Users/arthurlockman/Desktop/wifi_config.sh",
+		"/Users/arthurlockman/Desktop/wifi_stop.sh",
+		"/Users/arthurlockman/Documents/Codebase/pebble-dev/PebbleSDK-2.0-BETA4/Examples/pebblekit-js/weather/src/weather.c",
+		"/Users/arthurlockman/Documents/Codebase/pebble-dev/PebbleSDK-2.0-BETA4/Examples/pebblekit-js/quotes/src/quotes.c",
+		"/Users/arthurlockman/Documents/Codebase/pebble-dev/PebbleSDK-2.0-BETA4/Examples/pebblekit-js/quotes/src/js/pebble-js-app.js",
+		"/Users/arthurlockman/Documents/Codebase/pebble-dev/PebbleSDK-2.0-BETA4/Examples/pebblekit-js/quotes/src/entry.c",
+		"/Users/arthurlockman/Documents/Codebase/pebble-dev/PebbleSDK-2.0-BETA4/Examples/pebblekit-js/weather/src/js/pebble-js-app.js",
+		"/Users/arthurlockman/Documents/Codebase/DarkPebble/build/resources/img/clearday.png.pbi",
+		"/Users/arthurlockman/Documents/Codebase/DarkPebble/appinfo.json",
+		"/Users/arthurlockman/Documents/Codebase/pebble-dev/PebbleSDK-2.0-BETA4/Examples/pebblekit-js/weather/appinfo.json",
+		"/Users/arthurlockman/Documents/Codebase/DarkPebble/ScriptTest.html",
+		"/Users/arthurlockman/Documents/Codebase/pebble-dev/PebbleSDK-2.0-BETA4/Examples/pebblekit-js/weather/resources/img/cloud.png",
+		"/Users/arthurlockman/Documents/Codebase/pebble-dev/PebbleSDK-2.0-BETA4/Examples/watchapps/feature_draw_bitmap/appinfo.json",
+		"/Users/arthurlockman/Documents/Codebase/DarkPebble/dp-configuration.html",
+		"/Users/arthurlockman/Documents/Codebase/DarkPebble/DarkPebble.sublime-project",
+		"/Users/arthurlockman/Downloads/configurable/src/js/pebble-js-app.js",
+		"/Users/arthurlockman/Downloads/configurable/configurable.html",
+		"/Users/arthurlockman/Documents/Codebase/DarkPebble/src/DarkPebble.c",
+		"/Users/arthurlockman/Dropbox/bash_profile",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/LineSensor.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/LineSensor.h",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/RoboSWAG.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Robotmap.h",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/UltrasonicRangefinder.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/UltrasonicRangefinder.h",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/LineFollower.h",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/LineFollower.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/LimitSwitch.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/LimitSwitch.h",
+		"/var/folders/j_/h79mscds1nvf9lm0q51shrdh0000gs/T/tmpxhh33o.html",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Manipulator.h",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Manipulator.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/PPM.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Servo.h",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Drive.h",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Drive.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Servo.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab_4/Lab_4.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Libraries/utils.h",
+		"/Users/arthurlockman/Downloads/RBE_1001_template/RBE_1001_template.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework_16/Homework_16.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework_15/Homework_15.ino",
+		"/Users/arthurlockman/Documents/Arduino/Homework_15/Homework_15.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/PPM.h",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/Drive.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/Drive.h",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/PPM.cpp",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/PPM.h",
+		"/Users/arthurlockman/Desktop/RoboSWAG.ino",
+		"/Users/arthurlockman/Documents/Arduino/TestSketch/TestSketch.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 3/Line Follower/Line Follower.ino",
+		"/Users/arthurlockman/Documents/Arduino/ArmControl/ArmControl.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework11/Homework11.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework10/Homework10.ino",
+		"/Applications/Arduino.app/Contents/Resources/Java/examples/01.Basics/AnalogReadSerial/AnalogReadSerial.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework 6a/Homework 6a.ino",
+		"/Users/arthurlockman/Documents/Arduino/Homework10/Homework10.ino",
+		"/Users/arthurlockman/Documents/Arduino/Lab 4/Lab 4.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 4/Lab 4.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 4/Positions.h",
+		"/Users/arthurlockman/Desktop/Positions.h",
+		"/Users/arthurlockman/Downloads/br3ttb-Arduino-PID-Library-d21d7e3/PID_v1/Examples/PID_Basic/PID_Basic.ino",
+		"/Users/arthurlockman/Downloads/br3ttb-Arduino-PID-Library-d21d7e3/PID_v1/Examples/PID_AdaptiveTunings/PID_AdaptiveTunings.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 2/Lab2/Lab2.ino",
+		"/Users/arthurlockman/Documents/Arduino/Lab 3/Lab 3.ino",
+		"/Users/arthurlockman/Library/Application Support/Steam/SteamApps/common/Kerbal Space Program/saves/default/persistent.sfs",
+		"/Users/arthurlockman/Desktop/derp.html",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework 3/Homework 3.ino",
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 1/Square/Square.ino"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"preview",
+			"capabilities",
+			"symbol",
+			"app_message_init",
+			"app_sync_init",
+			"timer_callback",
+			"sync_error",
+			"sync_change_callback",
+			"text_layer",
+			"0",
+			":",
+			"forecast",
+			"Serial",
+			"trackLine",
+			"write",
+			"\"\n",
+			"true",
+			"0",
+			"default",
+			"-",
+			"tolerance",
+			"velocityLimit",
+			"max",
+			"font"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Arduino Code.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Arduino-like IDE/Arduino.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.AnalogReadSerial":
+	{
+		"height": 106.0
+	},
+	"output.ArmControl":
+	{
+		"height": 106.0
+	},
+	"output.Blink":
+	{
+		"height": 106.0
+	},
+	"output.Circle":
+	{
+		"height": 100.0
+	},
+	"output.DigitalReadSerial":
+	{
+		"height": 106.0
+	},
+	"output.Homework 3":
+	{
+		"height": 106.0
+	},
+	"output.Homework 6a":
+	{
+		"height": 106.0
+	},
+	"output.Homework10":
+	{
+		"height": 106.0
+	},
+	"output.Homework11":
+	{
+		"height": 106.0
+	},
+	"output.Homework_15":
+	{
+		"height": 143.0
+	},
+	"output.Homework_16":
+	{
+		"height": 106.0
+	},
+	"output.Lab 4":
+	{
+		"height": 106.0
+	},
+	"output.Lab2":
+	{
+		"height": 292.0
+	},
+	"output.Lab_4":
+	{
+		"height": 172.0
+	},
+	"output.Libraries":
+	{
+		"height": 341.0
+	},
+	"output.Line Follower":
+	{
+		"height": 106.0
+	},
+	"output.PWMSweep":
+	{
+		"height": 106.0
+	},
+	"output.RoboSWAG":
+	{
+		"height": 232.0
+	},
+	"output.Square":
+	{
+		"height": 106.0
+	},
+	"output.Sweep":
+	{
+		"height": 106.0
+	},
+	"output.TankDrive":
+	{
+		"height": 106.0
+	},
+	"output.TestSketch":
+	{
+		"height": 106.0
+	},
+	"output.VCC":
+	{
+		"height": 106.0
+	},
+	"output.VCCTest":
+	{
+		"height": 106.0
+	},
+	"output.exec":
+	{
+		"height": 295.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.ppm":
+	{
+		"height": 106.0
+	},
+	"output.stino_log":
+	{
+		"height": 100.0
+	},
+	"project": "Arduino Code.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Arduino/Homework 3/Homework 3.ino"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
