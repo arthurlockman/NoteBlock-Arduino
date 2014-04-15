@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"m_last",
+				"m_lastZ"
+			],
+			[
+				"m_las",
+				"m_lastZ"
+			],
+			[
 				"pitch",
 				"pitchToMidi"
 			],
@@ -308,10 +316,10 @@
 	"buffers":
 	[
 		{
-			"file": "Arduino Code.ino",
+			"file": "NoteBlock_Arduino.ino",
 			"settings":
 			{
-				"buffer_size": 164,
+				"buffer_size": 1408,
 				"line_ending": "Unix"
 			}
 		}
@@ -325,6 +333,10 @@
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
 			],
 			[
 				"MarkdownEditing",
@@ -479,7 +491,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 647.0
+		"width": 578.0
 	},
 	"console":
 	{
@@ -500,6 +512,24 @@
 	},
 	"file_history":
 	[
+		"/Users/arthurlockman/Documents/Codebase/NoteBlock_Arduino/NoteBlock_Arduino.ino",
+		"/Users/arthurlockman/Downloads/PEM/wpa_supplicant.conf",
+		"/Users/arthurlockman/Downloads/PEM/UserCert.pem",
+		"/Users/arthurlockman/Downloads/PEM/UnsupportedDevice.pem",
+		"/Users/arthurlockman/Downloads/PEM/UnsupportedDevice-CA-1.pem",
+		"/Users/arthurlockman/Downloads/UnsupportedDevice-CA-1.crt",
+		"/Users/arthurlockman/Downloads/UnsupportedDevice.crt",
+		"/Users/arthurlockman/Downloads/UnsupportedDevice.key",
+		"/Users/arthurlockman/Downloads/UnsupportedDevice.p12",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/CS 2102/- Homework/Homework 5/.idea/workspace.xml",
+		"/Users/arthurlockman/Desktop/Test.java",
+		"/Users/arthurlockman/Desktop/o.csv",
+		"/Users/arthurlockman/Documents/Arduino/libraries/Tone/Tone.h",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Project/Tone/Tone.cpp",
+		"/Users/arthurlockman/Documents/Arduino/libraries/Tone/Tone.cpp",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Project/Arduino Code/utils.h",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Project/Arduino Code/Arduino Code.ino",
+		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Project/Arduino Code/Arduino Code.sublime-project",
 		"/Users/arthurlockman/Documents/Arduino/Arduino Code/Arduino Code.ino",
 		"/Users/arthurlockman/Library/Application Support/Mou/CSS/Clearness Dark Mod.css",
 		"/Users/arthurlockman/Dropbox/D-Term 2014/MU 201X/Project/pitches.cpp",
@@ -609,25 +639,7 @@
 		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/PPM.h",
 		"/Users/arthurlockman/Desktop/RoboSWAG.ino",
 		"/Users/arthurlockman/Documents/Arduino/TestSketch/TestSketch.ino",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 3/Line Follower/Line Follower.ino",
-		"/Users/arthurlockman/Documents/Arduino/ArmControl/ArmControl.ino",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework11/Homework11.ino",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework10/Homework10.ino",
-		"/Applications/Arduino.app/Contents/Resources/Java/examples/01.Basics/AnalogReadSerial/AnalogReadSerial.ino",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework 6a/Homework 6a.ino",
-		"/Users/arthurlockman/Documents/Arduino/Homework10/Homework10.ino",
-		"/Users/arthurlockman/Documents/Arduino/Lab 4/Lab 4.ino",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 4/Lab 4.ino",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 4/Positions.h",
-		"/Users/arthurlockman/Desktop/Positions.h",
-		"/Users/arthurlockman/Downloads/br3ttb-Arduino-PID-Library-d21d7e3/PID_v1/Examples/PID_Basic/PID_Basic.ino",
-		"/Users/arthurlockman/Downloads/br3ttb-Arduino-PID-Library-d21d7e3/PID_v1/Examples/PID_AdaptiveTunings/PID_AdaptiveTunings.ino",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 2/Lab2/Lab2.ino",
-		"/Users/arthurlockman/Documents/Arduino/Lab 3/Lab 3.ino",
-		"/Users/arthurlockman/Library/Application Support/Steam/SteamApps/common/Kerbal Space Program/saves/default/persistent.sfs",
-		"/Users/arthurlockman/Desktop/derp.html",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/Homework/Homework 3/Homework 3.ino",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 1/Square/Square.ino"
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 3/Line Follower/Line Follower.ino"
 	],
 	"find":
 	{
@@ -646,6 +658,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"&",
 			"preview",
 			"capabilities",
 			"symbol",
@@ -677,6 +690,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"and"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -692,24 +706,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Arduino Code.ino",
-					"semi_transient": false,
+					"file": "NoteBlock_Arduino.ino",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 164,
+						"buffer_size": 1408,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								162,
-								162
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Arduino-like IDE/Arduino.tmLanguage"
+							"syntax": "Packages/Arduino-like IDE/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -755,6 +771,10 @@
 	"output.AnalogReadSerial":
 	{
 		"height": 106.0
+	},
+	"output.Arduino Code":
+	{
+		"height": 112.0
 	},
 	"output.ArmControl":
 	{
@@ -864,7 +884,7 @@
 	{
 		"height": 100.0
 	},
-	"project": "Arduino Code.sublime-project",
+	"project": "NoteBlock_Arduino.sublime-project",
 	"replace":
 	{
 		"height": 46.0
