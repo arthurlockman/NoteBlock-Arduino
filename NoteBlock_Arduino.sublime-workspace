@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"send",
+				"sendNote"
+			],
+			[
 				"m_last",
 				"m_lastZ"
 			],
@@ -66,10 +70,6 @@
 			[
 				"show",
 				"showSimpleNotificationOnPebble"
-			],
-			[
-				"send",
-				"sendData"
 			],
 			[
 				"for",
@@ -315,14 +315,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "NoteBlock_Arduino.ino",
-			"settings":
-			{
-				"buffer_size": 1408,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -513,6 +505,11 @@
 	"file_history":
 	[
 		"/Users/arthurlockman/Documents/Codebase/NoteBlock_Arduino/NoteBlock_Arduino.ino",
+		"/Users/arthurlockman/Desktop/Examples.java",
+		"/Users/arthurlockman/Documents/Codebase/NoteBlock_Arduino/pitches.h",
+		"/Users/arthurlockman/Documents/Codebase/NoteBlock_Arduino/utils.h",
+		"/Users/arthurlockman/.Trash/NoteBlock_Arduino 20-45-06-550.ino",
+		"/Users/arthurlockman/Documents/Codebase/NoteBlock_Arduino/NoteBlock_Arduino.sublime-project",
 		"/Users/arthurlockman/Downloads/PEM/wpa_supplicant.conf",
 		"/Users/arthurlockman/Downloads/PEM/UserCert.pem",
 		"/Users/arthurlockman/Downloads/PEM/UnsupportedDevice.pem",
@@ -634,16 +631,11 @@
 		"/Users/arthurlockman/Documents/Arduino/Homework_15/Homework_15.ino",
 		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/PPM.h",
 		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/Drive.cpp",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/Drive.h",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/PPM.cpp",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/PPM.h",
-		"/Users/arthurlockman/Desktop/RoboSWAG.ino",
-		"/Users/arthurlockman/Documents/Arduino/TestSketch/TestSketch.ino",
-		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Labs/Lab 3/Line Follower/Line Follower.ino"
+		"/Users/arthurlockman/Dropbox/B-Term 2013/RBE 1001/1001 Group Work/Final Project/RoboSWAG/Libraries/Drive.h"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -701,39 +693,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "NoteBlock_Arduino.ino",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1408,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Arduino-like IDE/Arduino.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -836,6 +797,10 @@
 	{
 		"height": 106.0
 	},
+	"output.NoteBlock_Arduino":
+	{
+		"height": 112.0
+	},
 	"output.PWMSweep":
 	{
 		"height": 106.0
@@ -925,7 +890,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 226.0,
+	"side_bar_width": 243.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

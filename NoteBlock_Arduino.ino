@@ -22,6 +22,9 @@ int m_lastY = 0;
 int m_lastZ = 0;
 int m_lastMic = 0;
 
+int m_mode = 1;
+int m_sound = 1;
+
 void setup() 
 {
   xbee.begin(9600);
@@ -33,11 +36,29 @@ void setup()
 
 void loop() 
 {
-	// readAccelerometers();
+	readAccelerometers();
 	readMic();
-	// processData(m_lastX, m_lastY, m_lastZ, m_lastMic);
-  // playChord(midiToPitch(50), midiToPitch(54), 1000);
-  Serial.println(m_lastMic);
+	processData(m_lastX, m_lastY, m_lastZ, m_lastMic);
+
+  if(xbee.available() > 0)
+  {
+    String inData = Serial.readStringUntil('\n');
+
+    if (inData == "P1")
+      m_mode = 1;
+    else if (inData == "P2")
+      m_mode = 2;
+    else if (inData == "P3")
+      m_mode = 1;
+    else if (inData == "S")
+    {
+      if (m_sound == 1)
+        m_sound = 0;
+      else
+        m_sound = 1;
+    }
+  }
+
   delay(10);
 }
 
@@ -56,18 +77,41 @@ void readMic()
 void processData(int x, int y, int z, int mic)
 {
 	//Process accelerometer data and turn into notes.
-  int note = map((x + y + z), 0, 3069, 11, 99);
-  if (note > 49 || note < 47)
-  {
-    playChord(midiToPitch(note), midiToPitch(note + 4), 100);
-    // sendNote(note, note + 4);
+  
+  int mod = map(m_lastMic, 0, 1024, 4, 5);
+  int note;
+  switch (m_mode) {
+      case 1:
+        note = map((x + y + z), 0, 3069, 11, 99);
+        if (note > 49 || note < 47)
+        {
+          playChord(midiToPitch(note), midiToPitch(note + mod), 100);
+          sendNote(note, note + mod);
+        }
+        break;
+      case 2:
+        note = map(((m_lastX + m_lastY) % m_lastZ), 0, 3069, 11, 99);
+        playChord(midiToPitch(note), midiToPitch(note + mod), 100);
+        sendNote(note, note + mod);
+        break;
+      default:
+        note = map((x + y + z), 0, 3069, 11, 99);
+        if (note > 49 || note < 47)
+        {
+          playChord(midiToPitch(note), midiToPitch(note + mod), 100);
+          sendNote(note, note + mod);
+        }
+        break;
   }
 }
 
 void playChord(int tone1, int tone2, int duration)
 {
- speaker1.play(tone1, duration);
-  speaker2.play(tone2, duration);
+  if (m_sound == 1)
+  {
+    speaker1.play(tone1, duration);
+    speaker2.play(tone2, duration);
+  }
 }
 
 void playNote(int channel, int tone, int duration)
@@ -92,4 +136,3 @@ void sendNote(int note1, int note2)
   Serial.print(",");
   Serial.println(note2);
 }
-
