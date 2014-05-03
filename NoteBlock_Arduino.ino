@@ -20,9 +20,6 @@ Tone speaker2;
 #define MODE_DEBUG 1
 #define MODE_RUN 2
 
-// #define MODE MODE_DEBUG
-#define MODE MODE_RUN
-
 int m_lastX = 0;
 int m_lastY = 0;
 int m_lastZ = 0;
@@ -31,6 +28,8 @@ int m_lastSide = 1;
 
 int m_mode = 1;
 int m_sound = 1;
+
+int MODE = MODE_RUN;
 
 void setup() 
 {
@@ -70,20 +69,28 @@ void loop()
         (m_sound == 1)? m_sound = 0 : m_sound = 1;
         Serial.println("Toggling sound...");
       }
-      else if (incomingByte == 49)
+      else if (incomingByte == 49) //Switch to mode 1
       {
         m_mode = 1;
         Serial.println("Switching to mode 1...");
       }
-      else if (incomingByte == 50)
+      else if (incomingByte == 50) //Switch to mdoe 2
       {
         m_mode = 2;
         Serial.println("Switching to mode 2...");
       }
-      else if (incomingByte == 51)
+      else if (incomingByte == 51) //Switch to mode 3
       {
         m_mode = 1;
         Serial.println("Switching to mode 3...");
+      }
+      else if (incomingByte == 68) //Switch to debug mode
+      {
+        MODE = MODE_DEBUG;
+      }
+      else if (incomingByte == 82) //Switch to run mode
+      {
+        MODE = MODE_RUN;
       }
     }
     if (m_mode == 2)
