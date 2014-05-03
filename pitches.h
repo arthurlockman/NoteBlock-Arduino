@@ -180,6 +180,15 @@
 #define NOTE_D8_MIDI  98
 #define NOTE_DS8_MIDI 99
 
+int bFlatBluesScale[6] = {
+	58,
+	61,
+	63,
+	64,
+	65, 
+	68
+};
+
 int pitchValues[100] = {
 	31,
 	33,
