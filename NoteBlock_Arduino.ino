@@ -81,7 +81,7 @@ void loop()
       }
       else if (incomingByte == 51) //Switch to mode 3
       {
-        m_mode = 1;
+        m_mode = 3;
         Serial.println("Switching to mode 3...");
       }
       else if (incomingByte == 68) //Switch to debug mode
@@ -132,6 +132,11 @@ void processData(int x, int y, int z, int mic)
         note = map((x + y + z), 0, 3069, 11, 99);        
         playChord(midiToPitch(note), midiToPitch(note + mod), 100);
         sendNote(note, note + mod);
+        break;
+      case 3:
+        note = bFlatBluesScale[m_lastSide];
+        playChord(midiToPitch(note), midiToPitch(note + 10));
+        sendNote(note, note + 10);
         break;
       default:
         note = map((x + y + z), 0, 3069, 11, 99);
@@ -192,27 +197,33 @@ void logData()
 
 int detectSide()
 {
-  if (WithinTolerance(m_lastX, 552, 20) && WithinTolerance(m_lastY, 580, 20) && WithinTolerance(m_lastZ, 720, 20))
+  if (WithinTolerance(m_lastX, 552, 20) && WithinTolerance(m_lastY, 580, 20) 
+    && WithinTolerance(m_lastZ, 720, 20))
   {
     m_lastSide = 1;
   }
-  else if (WithinTolerance(m_lastX, 540, 20) && WithinTolerance(m_lastY, 820, 20) && WithinTolerance(m_lastZ, 470, 30))
+  else if (WithinTolerance(m_lastX, 540, 20) && WithinTolerance(m_lastY, 820, 20) 
+    && WithinTolerance(m_lastZ, 470, 30))
   {
     m_lastSide = 2;
   }
-  else if (WithinTolerance(m_lastX, 300, 20) && WithinTolerance(m_lastY, 570, 20) && WithinTolerance(m_lastZ, 470, 30))
+  else if (WithinTolerance(m_lastX, 300, 20) && WithinTolerance(m_lastY, 570, 20) 
+    && WithinTolerance(m_lastZ, 470, 30))
   {
     m_lastSide = 3;
   }
-  else if (WithinTolerance(m_lastX, 550, 20) && WithinTolerance(m_lastY, 330, 20) && WithinTolerance(m_lastZ, 470, 30))
+  else if (WithinTolerance(m_lastX, 550, 20) && WithinTolerance(m_lastY, 330, 20) 
+    && WithinTolerance(m_lastZ, 470, 30))
   {
     m_lastSide = 4;
   }
-  else if (WithinTolerance(m_lastX, 790, 20) && WithinTolerance(m_lastY, 580, 20) && WithinTolerance(m_lastZ, 470, 30))
+  else if (WithinTolerance(m_lastX, 790, 20) && WithinTolerance(m_lastY, 580, 20) 
+    && WithinTolerance(m_lastZ, 470, 30))
   {
     m_lastSide = 5;
   }
-  else if (WithinTolerance(m_lastX, 530, 20) && WithinTolerance(m_lastY, 570, 20) && WithinTolerance(m_lastZ, 220, 20))
+  else if (WithinTolerance(m_lastX, 530, 20) && WithinTolerance(m_lastY, 570, 20) 
+    && WithinTolerance(m_lastZ, 220, 20))
   {
     m_lastSide = 6;
   }
