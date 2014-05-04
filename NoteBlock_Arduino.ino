@@ -134,8 +134,8 @@ void processData(int x, int y, int z, int mic)
         sendNote(note, note + mod);
         break;
       case 3:
-        note = bFlatBluesScale[m_lastSide];
-        playChord(midiToPitch(note), midiToPitch(note + 10));
+        note = bFlatBluesScale[m_lastSide-1];
+        playChord(midiToPitch(note), midiToPitch(note + 10), 100);
         sendNote(note, note + 10);
         break;
       default:
